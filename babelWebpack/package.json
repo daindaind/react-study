@@ -2,6 +2,14 @@
   "devDependencies": {
     "@babel/cli": "^7.27.2",
     "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-arrow-functions": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "react": "^19.1.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   }
 }
